@@ -3,6 +3,7 @@ require 'pry'
 def hello(["tim","tom","jim"])
   i = 0
   while i < array.length
+  binding.pry 
     yield(array[i])
     i += 1
   end
